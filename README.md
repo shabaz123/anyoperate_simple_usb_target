@@ -9,3 +9,5 @@ A pre-built .uf2 binary is available in the build-pico-Release folder. Hold down
 
 The code blinks the green LED at 50% duty cycle by default. Disconnect the Pi Pico from the PC, and attach it to a mobile phone running AnyOperate. Select USB in the AnyOperate app, then go to Configure, and you should see a duty cycle value there to adjust and see the effect.
 
+# Building the Code
+You'll need your PC set up to with the Pi Pico RP2040 C/C++ SDK installed, and the ARM GNU Toolchain. Inspect (and most likely adjust) the build.ps1 file if you wish to build on Windows using PowerShell.
